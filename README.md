@@ -1,3 +1,3 @@
-# Custom Version Of 2048
+# 🍳  Cooking up...
 
-### Play Here https://wf910.github.io/
+
