@@ -117,12 +117,12 @@ h1.title {
 .score-container:after {
   content: "Cupcake"; }
 .score-points:after {
-  content: "Kcal"; }
+  content: "Points"; }
 
 .best-container:after {
-  content: "Cupcake Max"; }
+  content: "Tile Max"; }
 .best-points:after {
-	content: "Kcal Max"; }
+	content: "Max Points"; }
 
 p {
   margin-top: 0;
