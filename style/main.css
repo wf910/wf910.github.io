@@ -115,7 +115,7 @@ h1.title {
   float: right; }
 
 .score-container:after {
-  content: "Cupcake"; }
+  content: "Image"; }
 .score-points:after {
   content: "Points"; }
 
