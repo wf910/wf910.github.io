@@ -16,22 +16,22 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
 
 // Set Prices
-function kcal(exp) {
-  var kcal = [];
-  kcal[2]=2;
-  kcal[4]=4;
-  kcal[8]=8;
-  kcal[16]=16;
-  kcal[32]=32;
-  kcal[64]=64;
-  kcal[128]=128;
-  kcal[256]=256;
-  kcal[512]=512;
-  kcal[1024]=1024;
-  kcal[2048]=2048;
-  kcal[4096]=4096;
-  kcal[8192]=8192;
-  return kcal[exp];
+function Points(exp) {
+  var Points = [];
+  Points[2]=2;
+  Points[4]=4;
+  Points[8]=8;
+  Points[16]=16;
+  Points[32]=32;
+  Points[64]=64;
+  Points[128]=128;
+  Points[256]=256;
+  Points[512]=512;
+  Points[1024]=1024;
+  Points[2048]=2048;
+  Points[4096]=4096;
+  Points[8192]=8192;
+  return Points[exp];
 }
 
 // Restart the game
@@ -149,7 +149,7 @@ GameManager.prototype.fillLegend = function () {
     cell.appendChild(img);
     grid.appendChild(cell);
     row.appendChild(grid);
-    p.textContent = Localize(exp) + "  (" + kcal(exp) + " Kcal)";
+    p.textContent = Localize(exp) + "  (" + Points(exp) + " Points)";
     row.appendChild(p);
 
     legend[0].appendChild(row);
@@ -268,7 +268,7 @@ GameManager.prototype.move = function (direction) {
           tile.updatePosition(positions.next);
 
           // Update the score
-          self.points += kcal(tile.value) * 2;
+          self.points += Points(tile.value) * 2;
           if (merged.value > self.score) self.score = merged.value;
 
           // The mighty 2048 tile
