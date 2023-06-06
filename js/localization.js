@@ -23,7 +23,7 @@ String.toLocaleString({
     '%256'                  : 'Ghoul Trooper',
     '%512'                  : 'Giddy Up',
     '%1024'                 : 'Jonesy',
-    '%2048'                 : 'Roblox',
+    '%2048'                 : 'Kyrie Irving',
     '%4096'                 : 'Merry Marauder',
     '%8192'                 : 'LeBron James',
     '%p0'                   : 'Galaxy Skin',
@@ -36,7 +36,7 @@ String.toLocaleString({
     '%p256'                 : 'Ghoul Trooper',
     '%p512'                 : 'Giddy Up',
     '%p1024'                : 'Jonesy',
-    '%p2048'                : 'Roblox Bacon',
+    '%p2048'                : 'Kyrie Irving',
     '%p4096'                : 'Merry Marauder',
     '%p8192'                : 'LeBron James'
 
@@ -65,7 +65,7 @@ String.toLocaleString({
     '%256'                  : 'Ghoul Trooper',
     '%512'                  : 'Giddy Up',
     '%1024'                 : 'Jonesy',
-    '%2048'                 : 'Roblox',
+    '%2048'                 : 'Kyrie Irving',
     '%4096'                 : 'Merry Marauder',
     '%8192'                 : 'LeBron James',
     '%p0'                   : 'Galaxy Skin',
@@ -78,7 +78,7 @@ String.toLocaleString({
     '%p256'                 : 'Skull Ranger',
     '%p512'                 : 'Giddy Up',
     '%p1024'                : 'Jonesy',
-    '%p2048'                : 'Roblox',
+    '%p2048'                : 'Kyrie Irving',
     '%p4096'                : 'Merry Marauder',
     '%p8192'                : 'LeBron James'
   }
